@@ -1,0 +1,372 @@
+/*index settings*/
+h2 {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	position: relative;
+}
+
+a.more:link,a.more:visited {
+	display: block;
+	width: 37px;
+	height: 100%;
+	font-size: 12px;
+	font-weight: normal;
+	color: #FFF;
+	background: url(../images/more_bg.gif) right 12px no-repeat;
+	position: absolute;
+	top: 0;
+	right: 14px;
+}
+
+a.more:hover {
+	color: #fff;
+}
+
+.mainbg {
+	background: url(../images/index_main.gif) 0 0 repeat-y;
+}
+
+.mrtop1 {
+	height: 23px;
+	background: url(../images/main_bg1.gif) 0 0 no-repeat;
+	overflow: hidden;
+}
+
+.content {
+	padding: 0 18px;
+}
+
+.leftbox {
+	width: 704px;
+	float: left;
+}
+
+.rightbox {
+	width: 204px;
+	float: right;
+	position: relative;
+}
+
+/*ͨ�������б�*/
+.pubox_left {
+	width: 100%;
+}
+.main_list_l{
+	margin-top: 10px;
+	width: 500px;
+	overflow:hidden;
+}
+.main_list_s{
+	margin-top: 10px;
+	width: 200px;
+	overflow:hidden;
+}
+.main_list_s div{
+	display: block;
+	height: 212px;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 14px 8px;
+	margin-top: 6px;
+}
+.main_list_l h2,.main_list_s h2 {
+	height: 29px;
+	line-height: 29px;
+	color: #fff;
+	font-family:隶书;
+	font-size:17px;
+	background: url(../images/index_left_h2_l.gif) 0 0 no-repeat;
+	padding: 0 16px;
+}
+
+.main_list {
+	margin-top: 10px;
+	width: 344px;
+}
+
+.main_list h2 {
+	font-family:隶书;
+	font-size:17px;
+	height: 29px;
+	line-height: 29px;
+	color: #fff;
+	background: url(../images/index_left_h2.gif) 0 0 no-repeat;
+	padding: 0 16px;
+}
+.main_list_l div,.main_list_s div{
+	display: block;
+	height: 212px;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 14px 8px;
+	margin-top: 6px;
+}
+.main_list ul,.main_list div{
+	display: block;
+	height: 212px;
+	background: #fff;
+	border: 1px solid #d9d9d9;
+	padding: 14px 8px;
+	margin-top: 6px;
+}
+
+.main_list li,.main_list_l li,.main_list_l li,.main_list_l li,.main_list_s li,.main_list_s li{
+	display: block;
+	height: 26px;
+	font-weight:bold;
+	font-family:仿宋;
+	font-size:13px;
+	line-height: 26px;
+	background: url(../images/li_bg.gif) 0 center no-repeat;
+	padding-left: 10px;
+	position: relative;
+}
+.main_list li span,.main_list_l li span,.main_list_l li span,.main_list_l li span,.main_list_s li span,.main_list_s li span{
+	
+}
+
+.main_list li a,.main_list li a:link,.main_list li a:visited {
+	color: #4a4a4a;
+}
+.main_list_l li a,.main_list_l li a:link,.main_list_l li a:visited {
+	color: #4a4a4a;
+}
+
+.new {
+	display: inline;
+}
+
+a.style1:link,a.style1:visited {
+	width: 229px;
+}
+
+.main_list li span,.main_list_l li span {
+	font-family:仿宋;
+	font-size:10px;
+	
+	display: block;
+	width: 70px;
+	height: 24px;
+	color: #b7b7b7;
+	position: absolute;
+	top: 0;
+	right: 1px;
+}
+
+/*ѧԺ����*/
+.intrduce {
+	width: 100%;
+	position: relative;
+	z-index: 99;
+}
+
+.intrduce h2 {
+	display: block;
+	height: 34px;
+	line-height: 29px;
+	background: url(../images/gk_h2.gif) 0 0 no-repeat;
+	padding: 0 16px;
+}
+
+.intrduce .topbg {
+	display: block;
+	height: 15px;
+	background: url(../images/gk_h2.gif) 0 0 no-repeat;
+}
+
+.intrduce dl {
+	display: block;
+	width: 100%;
+	height: 138px;
+	background: url(../images/gk_main.gif) 0 0 no-repeat;
+	padding-bottom: 25px;
+}
+
+.intrduce dd {
+	display: block;
+	height: 34px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.intrduce dd a,.intrduce dd a:link,.intrduce dd a:visited {
+	display: block;
+	width: 113px;
+	height: 34px;
+	line-height: 34px;
+	font-weight: bold;
+	color: #464646;
+	padding-left: 55px;
+	margin: 0 auto;
+}
+/*ѧԺ����*/
+a.jsbtn:link,a.jsbtn:visited {
+	background: url(../images/js_btn.gif) 0 0 no-repeat;
+}
+
+a.jsbtn:hover {
+	color: #fff !important;
+	background: url(../images/js_btn.gif) -168px 0 no-repeat;
+}
+/*ѧԺ��*/
+a.jgbtn:link,a.jgbtn:visited {
+	background: url(../images/jg_btn.gif) 0 0 no-repeat;
+}
+
+a.jgbtn:hover {
+	color: #fff !important;
+	background: url(../images/jg_btn.gif) -168px 0 no-repeat;
+}
+/*ѧԺʦ��*/
+a.szbtn:link,a.szbtn:visited {
+	background: url(../images/sz_btn.gif) 0 0 no-repeat;
+}
+
+a.szbtn:hover {
+	color: #fff !important;
+	background: url(../images/sz_btn.gif) -168px 0 no-repeat;
+}
+
+a.szbtn2:link,a.szbtn2:visited {
+	color: #fff !important;
+	background: url(../images/sz_btn.gif) -168px 0 no-repeat;
+}
+
+.xylist {
+	width: 168px;
+	position: absolute;
+	top: 30px;
+	left: 18px;
+}
+
+.xylist ul {
+	display: block;
+	background: #fff;
+	border: 1px solid #0075af;
+	border-bottom: none;
+	padding: 0 2px;
+	padding-top: 6px;
+}
+
+.xylist li {
+	display: block;
+	width: 100%;
+}
+
+a.flist:link,a.flist:visited {
+	display: block;
+	width: 98px !important;
+	height: 26px !important;
+	line-height: 26px !important;
+	padding-left: 50px !important;
+}
+
+a.flist:hover {
+	color: #fff !important;
+	background: #1b60ab;
+}
+
+.fbottom {
+	width: 100%;
+	height: 8px;
+	background: url(../images/foat_01.gif) 0 0 no-repeat;
+	overflow: hidden;
+}
+
+/*����box*/
+.syslink {
+	width: 100%;
+	/*	height:190px;
+	height:50px;*/
+	height: auto;
+	position: relative;
+	z-index: 0;
+}
+
+.syslink li {
+	margin-bottom: 2px;
+}
+
+.syslink ul a,.syslink ul a:link,.syslink ul a:visited {
+	display: block;
+	height: 42px;
+	line-height: 42px;
+	font-weight: bold;
+	color: #6b6b6b;
+	padding-left: 25px;
+	background: url(../images/sys_btn.gif) 0 0 no-repeat;
+}
+
+/*邮箱*/
+.mail {
+	width: 100%;
+	height: 100px;
+	background: url(../images/mail_bg2.gif) 0 0 no-repeat;
+	padding-top: 18px;
+	margin-top: 15px;
+}
+
+.mail li {
+	margin-bottom: 0px;
+}
+
+.mail ul a {
+	display: block;
+	width: 178px;
+	height: 35px;
+	text-indent: -999px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+a.yzmail_1:link,a.yzmail_1:visited {
+	background: url(../images/shuji.gif) 0 0 no-repeat;
+}
+
+a.yzmail_2:link,a.yzmail_2:visited {
+	background: url(../images/yuanzhang.gif) 0 0 no-repeat;
+}
+
+a.kwmail:link,a.kwmail:visited {
+	background: url(../images/mail_02.gif) 0 0 no-repeat;
+}
+
+a.fysmail:link,a.fysmail:visited {
+	background: url(../images/mail_03.gif) 0 0 no-repeat;
+}
+
+a.teamail:link,a.teamail:visited {
+	background: url(../images/chazuo.gif) 0 0 no-repeat;
+}
+
+a.teacher:link,a.teacher:visited {
+	background: url(../images/mai_012.gif) 0 0 no-repeat;
+}
+
+/*��������*/
+.friendlink {
+	width: 100%;
+	background: url(../images/line.gif) 0 0 repeat-x;
+	padding-top: 11px;
+	margin-top: 16px;
+}
+
+.friendlink dl {
+	display: block;
+	width: 100%;
+}
+
+.friendlink dt {
+	font-weight: bold;
+	display: inline;
+}
+
+.friendlink dd {
+	display: inline;
+}
+
+.friendlink dd a {
+	margin: 0 5px;
+}

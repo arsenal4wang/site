@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="GBK"?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.1.7//EN"
+	"/WEB-INF/classes/struts-2.3.dtd">
+<struts>
+	<constant name="struts.multipart.maxSize" value="1073741824" />
+
+	<package name="tl" extends="struts-default">
+		<action name="getTL" class="com.Action.IndexAction" method="getTL">
+			<result name="success">TlList.jsp</result>
+		</action>
+		<action name="getInfo" class="com.Action.IndexAction" method="readNews">
+			<result name="success">News.jsp</result>
+		</action>
+		<!-- 得到教师领导详细信息 -->
+		<action name="getTLinfo" class="com.Action.IndexAction" method="getTLinfo">
+			<result name="success">TlInfo.jsp</result>
+		</action>
+	</package> 
+	<package name="file" extends="struts-default">
+		<!-- 下载文件 -->
+		<action name="download" class="com.Action.DownloadAction">
+			<result type="stream" name="success">
+				<param name="contentType">application/octet-stream</param>
+				<!-- 要有相对应的getDownloadFile()方法返回值是 InputStream -->
+				<param name="inputName">downloadFile</param>
+				<param name="contentDisposition">attachment;filename="${fileName}"</param>
+				<param name="bufferSize">4096</param>
+			</result>
+		</action>
+
+	</package>
+	<package name="test" extends="struts-default">
+		<action name="test" class="com.Action.Test" method="testAction">
+			<result name="success">index.jsp</result>
+		</action>
+	</package>
+	<package name="index" extends="struts-default">
+		<action name="welcome" class="com.Action.IndexAction" method="getIndex">
+			<result name="success">index.jsp</result>
+		</action>
+		<action name="phil" class="com.Action.IndexAction" method="getIndex">
+			<result name="success">indexBackup.jsp</result>
+		</action>
+		<!-- 进入二级页面得到该一级导航下所有新闻 -->
+		<action name="newsList" class="com.Action.IndexAction" method="newsList">
+			<result name="success">Sub.jsp</result>
+		</action>
+		<!-- 二级导航下的新闻 -->
+		<action name="subNewsList" class="com.Action.IndexAction"
+			method="subNewsList">
+			<result name="success">Sub.jsp</result>
+		</action>
+		<!-- 查看新闻 -->
+		<action name="readNews" class="com.Action.IndexAction" method="readNews">
+			<result name="success">News.jsp</result>
+		</action>
+		<!-- 新闻搜索 -->
+		<action name="newsSearch" class="com.Action.IndexAction"
+			method="newsSearch">
+			<result name="success">SearchResult.jsp</result>
+		</action>
+		<!-- 通过轮播图片来查看新闻 查看新闻 -->
+		<action name="read" class="com.Action.IndexAction" method="readNewsBySlider">
+			<result name="success" type="redirectAction">
+				readNews
+				<param name="navID">${navID}</param>
+				<param name="secID">${secID}</param>
+			</result>
+		</action>
+	</package>
+
+	<package name="json" extends="json-default">
+
+		<!-- 添加文件分类 -->
+		<action name="getStastic" class="com.Action.StatisticAction"
+			method="getStastic">
+			<result type="json">
+				<param name="root">dataMap</param>
+			</result>
+		</action>
+	</package>
+
+</struts>

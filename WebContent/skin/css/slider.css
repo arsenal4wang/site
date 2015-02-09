@@ -1,0 +1,65 @@
+img {
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+li {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+.slider-promo {
+	POSITION: relative;
+	HEIGHT: 258px;
+	OVERFLOW: hidden
+}
+.slider-promo .lst-main {
+	OVERFLOW: hidden;
+	_width: 100%
+}
+.slider-promo .lst-main LI A {
+	DISPLAY: block;
+	OVERFLOW: hidden
+}
+.slider-promo .lst-trigger {
+	Z-INDEX: 10;
+	POSITION: absolute;
+	LINE-HEIGHT: 17px;
+	BOTTOM: 9px;
+	HEIGHT: 19px;
+	COLOR: #fff;
+	RIGHT: 4px
+}
+.slider-promo .lst-trigger LI {
+	BORDER-BOTTOM: #fff 1px solid;
+	TEXT-ALIGN: center;
+	BORDER-LEFT: #fff 1px solid;
+	BACKGROUND-COLOR: #999;
+	WIDTH: 17px;
+	FLOAT: left;
+	HEIGHT: auto;
+	BORDER-TOP: #fff 1px solid;
+	CURSOR: pointer;
+	FONT-WEIGHT: 700;
+	MARGIN-RIGHT: 5px;
+	BORDER-RIGHT: #fff 1px solid
+}
+.slider-promo .lst-trigger .current {
+	BACKGROUND-COLOR: #000;
+	WIDTH: 22px
+}
+.slider-promo IMG {
+	VERTICAL-ALIGN: top
+}
+.tshop-pbsm-spr10c .shop-slider .slider-promo {
+	Z-INDEX: 1;
+	POSITION: relative;
+	HEIGHT: 258px;
+	OVERFLOW: hidden
+}

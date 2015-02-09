@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+*{margin:0;padding:0;list-style-type:none;font-size:12px;}
+a,img{border:0;}
+
+.scroll{height:300px;width:500px;margin:50px auto;border:solid 1px #ddd;}
+.scroll p{line-height:28px;padding:5px 0;border-bottom:dashed 1px #ddd;text-align:center;}
+.scroll p a{color:#3366cc;text-decoration:none;}

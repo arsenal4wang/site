@@ -1,0 +1,156 @@
+
+/*分类*/
+.subNav {
+	background: #fff url(../images2/nav_bg.png) 0 0 repeat-x;
+	width: 100%;
+	height: 40px;
+	z-index: 9999;
+}
+
+.subNav table {
+	width: 100%;
+	border-collapse: collapse;
+	z-index: 99999;
+}
+
+.subNav a {
+	text-decoration: none;
+	color: #fff;
+	line-height: 40px;
+}
+
+.subNav a:hover {
+	color: #f60;
+}
+
+.subNav ul ul {
+	
+	position: absolute;
+	visibility: hidden;/**/
+	top: 38px;
+	left: 0;
+	_left: -60px;
+	z-index: 99999;
+}
+
+.subNav li {
+	position: relative;
+	_position: static;
+	float: left;
+	width: 120px;
+	font-weight: 700;
+	font-size: 14px;
+	background: url(../images2/nav_bg_hover.png) 0 -40px no-repeat;
+}
+
+.subNav li.first,.subNav li.li li {
+	background: none
+}
+
+.subNav a.li {
+	position: relative;
+}
+
+.subNav li a {
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	background: no-repeat 5px 4px;
+	cursor: pointer;
+	zoom: 1;
+	background: url() no-repeat;
+}
+
+.subNav li a:hover {
+	color: #f60;
+	background: url(../images2/nav_bg_hover.png) no-repeat;
+}
+
+.subNav li a span {
+	display: block;
+}
+
+.subNav li a:hover span {
+	background-position: right -15px;
+}
+
+.subNav ul.two {
+	z-index: 990099;
+}
+
+.subNav .li:hover {
+	z-index: 99999;
+	background: transparent;
+}
+
+.subNav .li:hover ul {
+	visibility: visible;
+	text-align: left;
+	text-align: left;
+	text-indent: 20px;
+	z-index: 9999;
+}
+
+.subNav .li:hover ul {
+	border: 1px solid #ccc;
+	border-width: 1px 2px 2px 1px;
+	width: 120px;
+	background: #034474;
+	background: #043559;
+	padding: 1px;
+	z-index: 9999;
+}
+
+.subNav .li:hover ul.cate1755988065,.subNav .li:hover ul.cate1755988065 li
+	{
+	width: 150px
+}
+
+.subNav .li:hover ul.three {
+	background: #0A78C9;
+}
+
+.subNav .li:hover ul.three em {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 8px;
+	width: 7px;
+	height: 15px;
+	background: url(../images2/arrow-.gif) 0 0 no-repeat;
+	z-index: 12000
+}
+
+.subNav .li:hover li {
+	border-bottom: none;
+	height: 30px;
+	line-height: 30px;
+	font-weight: 400;
+	font-size: 13px;
+	_font-size: 12px;
+}
+
+.subNav .li:hover li td {
+	text-indent: 20px
+}
+
+.subNav .li:hover li a {
+	background: transparent;
+	height: 30px;
+	line-height: 30px;
+}
+
+.subNav .li:hover li a:hover {
+	background: #0096ff;
+	color: #fff;
+}
+
+.subNav .li:hover li a:hover span {
+	background-position: right -30px;
+}
+
+.subNav .li:hover .li:hover ul {
+	visibility: visible;
+	left: 100px;
+	top: -2px;
+}

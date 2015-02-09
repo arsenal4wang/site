@@ -1,0 +1,10 @@
+/*内容版块*/
+.rightdiv {
+	width: 344px;
+	float: right;
+}
+
+.leftdiv {
+	width: 344px;
+	float: left;
+}

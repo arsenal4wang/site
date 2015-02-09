@@ -1,0 +1,189 @@
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+td {
+	padding: 3px 0px 5px 3px;
+}
+
+.title {
+	color: #666600;
+	font-weight: bold;
+}
+
+.title span {
+	padding-left: 3px;
+}
+
+#addTab {
+	position: absolute;
+	left: 455px;
+	top: 64px;
+	width: 360px;
+	height: 180px;
+	z-index: 2;
+	background-color: #FFFFFF;
+	border: 1px solid #889D8F;
+	padding: 0px;
+	display: none;
+}
+
+#editTab {
+	position: absolute;
+	left: 455px;
+	top: 64px;
+	width: 360px;
+	height: 350px;
+	z-index: 1;
+	background-color: #FFFFFF;
+	border: 1px solid #889D8F;
+	padding: 0px;
+	display: none;
+}
+
+.icoitem {
+	float: left;
+	margin-right: 12px;
+	height: 24px;
+	line-height: 24px;
+}
+
+.ico {
+	float: left;
+	margin-right: 4px;
+	padding-top: 4px;
+}
+
+.txt {
+	float: left;
+}
+
+.updatedvt {
+	height: 20px;
+	line-height: 20px;
+	padding-left: 3px;
+	width: 98%;
+	border-bottom: 1px dashed #dcdcdc;
+}
+
+.upinfotitle {
+	border-bottom: 1px solid #cccccc;
+	color: red;
+	font-weight: bold;
+	line-height: 26px;
+}
+
+.verline {
+	border-bottom: 1px dashed #cccccc;
+	line-height: 26px;
+}
+
+#loaddiv {
+	top: 0;
+	left: 0;
+	background: #cccccc;
+	filter: Alpha(opacity =    70);
+	-moz-opacity: 0.7;
+	position: absolute;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+}
+/**娣诲姞鍐呭绛�*/
+.left_nomal,.left_area,.left_file_textarea {
+	background-color: #EEEEEE;
+	text-align: center;
+	float: left;
+	width: 15%;
+	border-right: dotted 1px #EEEEEE;
+	/*	background-color: blue;*/
+}
+
+.left_nomal span,.right_normal {
+	text-align: center;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.left_area span {
+	font-size: 15px;
+	height: 500px;
+	line-height: 500px;
+}
+
+.right,.right_normal {
+	text-align: center;
+	float: right;
+	width: 84%;
+}
+
+.htitle {
+	font-size: 20px;
+	font-weight: bold;
+}
+.height {
+	/*	background-color: red;*/
+	
+}
+
+.border {
+	border-top: dotted 2px #DDDDDD;
+}
+
+.height_nomal {
+	height: 30px;
+}
+
+.height_area {
+	height: 520px;
+}
+
+.position_left {
+	text-align: left;
+}
+
+.height_file_textarea {
+	height: 210px;
+}
+/**/
+.left_file_textarea span {
+		
+	font-size: 15px;
+	height: 210px;
+	line-height: 210px;
+}
+/**璀﹀憡**/
+.warn {
+	color: red;
+	font-size: 20px;
+}
+
+.red {
+	color: red;
+}
+
+.green {
+	color: green;
+}
+/**鐧诲綍**/
+#login_div {
+	background: url(../images/admin_login.png);
+	width: 500px;
+	height: 200px;
+	margin-top: 130px;
+}
+
+#Login_table {
+	width: 500px;
+	border: 0;
+	margin: 0;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*鎺у埗cellspacing*/
+#Login_table td {
+	padding: 0;
+}
+/*鎺у埗cellpadding*/
